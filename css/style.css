@@ -1,0 +1,462 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face{
+	font-family: "Raleway";
+	src:url("Raleway-Regular.ttf");
+}
+@font-face{
+	font-family: "Raleway-Black";
+	src:url("Raleway-Black.ttf");
+}
+@font-face{
+	font-family: "Raleway-Medium";
+	src:url("Raleway-Medium.ttf");
+}
+@font-face{
+	font-family: "Roboto-Slab-Bold";
+	src:url("RobotoSlab-Bold.ttf");
+}
+
+html, body{
+	margin: 0px!important;
+	padding: 0px;
+	font-family: Raleway, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	-webkit-font-feature-settings: "lnum"; 
+	-moz-font-feature-settings: "lnum"; 
+	font-feature-settings: "lnum"; 
+}
+
+nav a, #portfolio a{
+	text-decoration: none;
+	color: #000;
+}
+
+a:active{
+	color: #000;
+}
+
+/*-----HEADER-----*/
+header{
+	border-bottom: #000000 2px solid;
+	width: 90%;
+	margin: 25px 5%;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	text-align: center;
+}
+h1{
+	font-family: "Raleway-Black";
+	font-size: 48pt;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 a{
+	color: #000;
+	text-decoration: none;
+    -webkit-transition: color 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.5s;
+}
+
+h1 a:hover{
+	color: #26547C;
+}
+/*-----NAVIGATION------*/
+nav{
+	font-weight: 100;
+}
+
+nav a{
+	color: #808080;
+    -webkit-transition: color 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.5s;
+}
+
+nav a:hover{
+	color: #EF476F;
+}
+
+#activePage{
+	color: #000000;
+	font-family: "Raleway-Medium";
+    -webkit-transition: color 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.5s;
+}
+
+#activePage:hover{
+	color: #EF476F;
+}
+
+ul{
+	list-style: none;
+	padding: 0px;
+}
+li{
+	display: inline;
+	margin-right: 40px;
+}
+li:last-child{
+	margin: 0px;
+}
+
+/*-----PORTFOLIO PAGE------*/
+main{
+	margin-bottom: 100px;
+}
+
+#portfolio article{
+	min-height: 350px;
+	display: flex;
+	align-items: center;
+}
+
+h2{
+	font-family: "Raleway-Medium";
+	text-transform: uppercase;
+	font-size: 70px;
+	color: #fff;
+	margin: auto;
+}
+
+#graphicDesign h2{
+	background-image: url(../images/gd.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-left: 130px;
+}
+
+#wdd h2{
+	background-image: url(../images/wdd.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-left: 180px;
+}
+
+#personalWork h2{
+	background-image: url(../images/pw.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-left: 100px;
+}
+
+#graphicDesign{
+	background-color:#EF476F;
+}
+
+#wdd{
+	background-color: #26547C;
+}
+
+#personalWork{
+	background-color: #06D6A0;
+}
+
+h3{
+	font-family: "Raleway";
+	text-transform: uppercase;
+	font-size: 24pt;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+a div{
+	width: 100%;
+	height: 100%;
+	background-color: red;
+}
+
+/*-----ART PAGES-----*/
+.arrow{
+	width: 18pt;
+	float: left;
+}
+
+.container{
+	max-width: 1500px;
+	width: 80%;
+	margin: 0px auto;
+}
+
+.container>section:last-child{
+	margin-bottom: 0px;
+}
+
+.container section:first-child{
+	margin-bottom: 50px;
+}
+
+main section img{
+	width: 100%;
+	box-shadow: 0 0 30px rgba(0,0,0,.1);
+}
+
+.logo{
+	width: 100%;
+	min-height: 350px;
+	display: flex;
+	align-items: center;
+}
+
+.logo img{
+	max-width: 50%;
+	max-height: 100px;
+	width: auto;
+	display: block;
+	margin: 0 auto;
+	box-shadow: none;
+}
+
+h5{
+	font-family: "Raleway-Medium";
+	font-size: 2em;
+	width: 31.1%;
+	float: left;
+	text-align: right;
+	margin-top: 50px;
+}
+
+section p{
+	font-size: 1.2em;
+	margin: 0px;
+	line-height: 1.5;
+}
+
+section article{
+	margin: auto;
+	width: 90%;
+}
+
+section article section{
+	width: 61.8%;
+	float: right;
+	margin-top: 50px;
+	margin-bottom: 55px;
+}
+
+.grid img{
+	margin-bottom: 5px;
+	box-shadow: none;
+}
+
+#emotes img{
+	min-width: 56px;
+	width: 10%;
+	max-width: 112px;
+	float: left;
+	margin-right: 5px;
+}
+
+main article{
+	clear: both;
+	overflow: hidden;
+}
+
+.floatLeft{
+	width: 50%; 
+	float: left;
+}
+
+.floatRight{
+	width: 50%; 
+	float: right;
+}
+
+/*-----ABOUT-----*/
+h4{
+	font-family:"Roboto-Slab-Bold";
+	text-align: center;
+	font-size: 150pt;
+	margin: 0px;
+}
+
+#resumeLink{
+	font-family: "Raleway-Bold";
+	color: #808080;
+	text-transform: uppercase;
+}
+
+#about{
+	max-width: 800px;
+	font-size: 16pt;
+	text-align: center;
+	margin: 0px auto;
+}
+
+#about p{
+	line-height: 1.5;
+}
+
+/*-----FOOTER-----*/
+footer{
+	clear: both;
+}
+
+/*-----Media Queries-----*/
+@media screen and (max-width: 1218px){
+	/*fix text width and background image on portfolio page
+	make container width wider*/
+	h2{
+		background-image: none!important;
+		padding: 0px!important;
+		text-align: center;
+	}
+	
+	.container{
+		width: 100%;	
+	}
+	
+	.arrow{
+		position: relative;
+		left: 5%;
+	}
+	
+	/*bg image for portfolio page.
+	#graphicDesign{
+		background-image: url(../images/gd.png);
+	}
+	
+	#wdd{
+		background-image: url(../images/wdd.png);
+	}
+	
+	#personalWork{
+		background-image: url(../images/pw.png);
+	}
+	
+	#portfolio article{
+		background-size: auto 30%;
+		background-repeat: no-repeat;
+		background-position: 5% 50%;
+	}
+	*/
+}
+
+@media screen and (max-width: 1025px){
+	#portfolio article, .logo{
+		min-height: 250px;
+	}
+	
+	.logo img{
+		min-height: 75px;
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 769px){
+	nav li{
+		font-size: 15pt;
+	}
+	
+	h2{
+		font-size: 36pt;
+		width: 90%;
+	}
+	
+	h3{
+		width: 80%;
+		margin: auto;
+		margin-bottom: 30px;
+	}
+	
+	h4{
+		font-size: 100pt;
+	}
+	
+	h5{
+		font-size: 20pt;
+	}
+	
+	section p{
+		font-size: 14pt;
+	}
+	
+	#about{
+		width: 87%;
+		font-size: 14pt;
+	}
+	
+	main{
+		margin-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 433px){
+	h3{
+		font-size: 18pt;
+	}
+	
+	br {
+		display: none;
+	}
+	
+	h5{
+		width: 100%;
+		text-align: left;
+		font-size: 24pt;
+		margin-bottom: 25px;
+		margin-top: 30px;
+	}
+	
+	section article section{
+		width: 100%;
+		margin-top: 0px;
+	}
+	
+	section p{
+		font-size: 14pt;
+	}
+	
+	section>img{
+		width: 100%;
+	}
+	
+	.floatLeft, .floatRight{
+		width: 100%;
+		float: none;
+	}
+	
+	video{
+		width: 100%;
+	}
+	
+	.logo{
+		min-height: 200px!important;
+	}
+	
+	h1{
+		font-size: 32pt;
+	}
+	
+	#ch3mic4l .logo img, #ds-items .logo img{
+		width: 70%;
+		max-height: none;
+		max-width: none;
+	}
+	
+	#portfolio article{
+		min-height: 200px;
+	}
+	
+	h2{
+		font-size: 24pt;
+	}
+	
+	ul li{
+		display: block;
+		margin: 0px 0 20px 0;
+		font-size: 12pt;
+	}
+	
+	#about p:first-of-type{
+		text-align: left;
+		margin-bottom: 30px;
+	}
+	
+	#pw{
+		margin-bottom: 30px;
+	}
+	
+	h4{
+		font-size: 70pt;
+	}
+}
