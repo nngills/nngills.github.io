@@ -46,6 +46,7 @@ header{
 }
 h1{
 	font-family: "Raleway-Black";
+	font-weight: 900;
 	font-size: 48pt;
 	margin: 0px;
 	padding: 0px;
@@ -99,7 +100,7 @@ li:last-child{
 	margin: 0px;
 }
 
-/*-----PORTFOLIO PAGE------*/
+/*-----MAIN PAGE------*/
 main{
 	margin-bottom: 100px;
 }
@@ -113,6 +114,7 @@ main{
 h2{
 	font-family: "Raleway-Medium";
 	text-transform: uppercase;
+	font-weight: 500;
 	font-size: 70px;
 	color: #fff;
 	margin: auto;
@@ -208,6 +210,7 @@ main section img{
 
 h5{
 	font-family: "Raleway-Medium";
+	font-weight: 500;
 	font-size: 2em;
 	width: 31.1%;
 	float: left;
@@ -264,6 +267,7 @@ main article{
 /*-----ABOUT-----*/
 h4{
 	font-family:"Roboto-Slab-Bold";
+	font-weight: 900;
 	text-align: center;
 	font-size: 150pt;
 	margin: 0px;
@@ -271,6 +275,7 @@ h4{
 
 #resumeLink{
 	font-family: "Raleway-Bold";
+	font-weight: bold;
 	color: #808080;
 	text-transform: uppercase;
 }
@@ -292,7 +297,7 @@ footer{
 }
 
 /*-----Media Queries-----*/
-@media screen and (max-width: 1218px){
+@media only screen and (max-width: 1218px){
 	/*fix text width and background image on portfolio page
 	make container width wider*/
 	h2{
@@ -331,7 +336,7 @@ footer{
 	*/
 }
 
-@media screen and (max-width: 1025px){
+@media only screen and (max-width: 1025px){
 	#portfolio article, .logo{
 		min-height: 250px;
 	}
@@ -342,7 +347,7 @@ footer{
 	}
 }
 
-@media screen and (max-width: 769px){
+@media only screen and (max-width: 769px){
 	nav li{
 		font-size: 15pt;
 	}
@@ -380,7 +385,7 @@ footer{
 	}
 }
 
-@media screen and (max-width: 433px){
+@media only screen and (max-width: 479px){
 	h3{
 		font-size: 18pt;
 	}
