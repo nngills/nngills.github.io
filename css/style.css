@@ -409,8 +409,8 @@ footer{
 		font-size: 14pt;
 	}
 	
-	section>img{
-		width: 100%;
+	section:not(#emotes)>img{
+		width: 100%!important;
 	}
 	
 	.floatLeft, .floatRight{
