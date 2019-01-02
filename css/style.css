@@ -114,6 +114,10 @@ main{
 	align-items: center;
 }
 
+.homeNav article{
+	height: 200px!important;
+}
+
 h2{
 	font-family: "Raleway-Medium";
 	text-transform: uppercase;
