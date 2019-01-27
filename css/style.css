@@ -212,10 +212,6 @@ main section img{
 .square_logo{
 	max-width: 100%!important;
 	max-height: 225px!important;
-	width: auto;
-	display: block;
-	margin: 0 auto;
-	box-shadow: none;
 }
 
 h5{
@@ -446,6 +442,11 @@ footer{
 	
 	.logo{
 		min-height: 200px!important;
+	}
+	
+
+	.square_logo{
+		max-height: 150px!important;
 	}
 	
 	h1{
