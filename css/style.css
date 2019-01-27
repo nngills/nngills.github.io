@@ -210,6 +210,7 @@ main section img{
 }
 
 .square_logo{
+	max-width: 100%!important;
 	max-height: 225px!important;
 	width: auto;
 	display: block;
